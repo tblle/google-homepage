@@ -1,7 +1,47 @@
-img{
-    width: 20%;
-    
+#logo{
+    max-width: 35%;
+    height: auto;
+    display: flex;
+    margin: 15em auto 1em auto;
 }
-#body-el{
-
+#search{
+    text-align:center;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bttm{
+    background: rgb(238, 238, 238);
+    align-self: flex-end;
+    padding: 0.5em 2em;
+}
+.liSide{
+    margin-right:auto;
+    padding: 1em 1.5em;
+}
+.liSpace{
+    flex-grow: 5;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    color: rgb(121, 121, 121);
+    font-size: 0.8em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a style{
+    text-decoration: none;
+}
+a:link, a:visited, a:active {
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
 }
